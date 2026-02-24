@@ -1,0 +1,120 @@
+Nama : Mutiara Y.H. Sianturi
+NIM  : 12S24045
+
+PROMPT DARI GPT :
+1. jadi pada praktikum selanjutnya, kami diberikan study case yang berupa : # Soal Pemrograman - Penjumlahan Nilai Siswa
+## Deskripsi Masalah
+Data nilai siswa disimpan dalam sebuah rak fisik yang tersusun rapat. Perhatikan pola penyimpanan pada gambar di bawah ini untuk memahami bagaimana kelompok siswa dipisahkan. 
+Input:
+1.	Jumlah total data (N).
+2.	Deret nilai (n1, n2, …, n).
+3.	Kode kelompok siswa
+
+**Tugas**
+Buatlah program yang mampu menentukan total nilai hanya untuk kelompok yang diminta.
+<p align="center">
+  <img src="image/pola.jpeg" width="300">
+</p>
+
+
+NB:
+Kamu dapat menekan Ctrl + Shift + V untuk melihat soal dengan gambar atau kamu dapat menekan ctrl + Klik pada link gambar.   nah bantu saya untuk memahami intruksinya, solusi yang diberikan dan object class yang sangat dipakai disini
+
+2. berikut gambar yang diberikan. Nah ini kan sangat berkaitan dengan pola nih dan Array yang telah kami pelajariin. Berikan pola yang dimaksud dan hubungan dengan instruksi program yang diminta?
+
+3. berarti dia memakai 3 kelompok secara berurutan kan ya? kemudian dalam menentukan index genao atau ganjil yang diperoleh pada soalnya itu bagaimana? berikan penjelasan dengan mudah dipahami!
+
+4. nah anda memberikan 3 kelompok secara berurutan itu sebagai contoh pemisalan? dan untuk genap/ ganjil dia tidak berpnagruh kan terhadap solusi? yang penting itu kuncinya menentukan modulo (%) kan? tapi dalam contohnya meenntukan jumlah_kelompoknya?
+
+5. baik, dari penjelasan yanga nda berikan saya mulai memahami apayang diminta. bisakah anda memberikan solusi dari srtudy case yang diberikan pada soal ini? agar saya dapat melihat nya dengan jelas dan detail
+
+6. mengapa dari solusi yang anda berikan kita menggunakan idnex sampai 5? dan untuk compile run dan output dan input yang kita buat pada saaat terminal nanti sesuai dengan kita? gaada penentuannnya ya?
+
+7. bagaimana mengcompile nya pada terminalnya dengan baik berdasaerkan solusi yang anda berikan diatas? 
+
+8. saya kurang memahami bagaimana itu menerukan input outputnya ketika kita membuat terminal betrdasarkan solusi program yang anda  berikan. Nah  ini jelaisn dulu dnegan mudah dipahami apakah itu ditentukan atau suka suka kita?
+
+9. jadi, kita kan melihat berdasarkan soal yang tertera akan yakni T02 itu. Nah dari instruksinya tersbut gaada kan input dan output yang diminta? yang intinya diminta Buatlah program yang mampu menentukan total nilai hanya untuk kelompok yang diminta kan?? 
+
+10. owh baiklah, berarti ga berpatokan terhadap input dan outputnya ya, yang penting disini berdasarkan pola array yang sesuai pada soal dan pentingnya memahami perulangan seperti urutan index kelompok tadi kan?? 
+
+11. bisa tidak anda jelasin dengan mudah dipahami bagaimana verdasarkan solusi program ini cara menyimpan data dalam array tersebut?
+
+12. nah berdasarkan solusi yang diperoleh tadi : import java.util.Scanner;
+
+public class Driver2 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah data (N): ");
+        int N = input.nextInt();
+
+        int[] nilai = new int[N];
+
+        System.out.println("Masukkan deret nilai:");
+        for (int i = 0; i < N; i++) {
+            nilai[i] = input.nextInt();
+        }
+
+        System.out.print("Masukkan jumlah kelompok: ");
+        int jumlahKelompok = input.nextInt();
+
+        System.out.print("Masukkan kode kelompok yang ingin dijumlahkan: ");
+        int kodeKelompok = input.nextInt();
+
+        int total = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (i % jumlahKelompok == kodeKelompok - 1) {
+                total += nilai[i];
+            }
+        }
+
+        System.out.println("Total nilai kelompok " + kodeKelompok + " adalah: " + total);
+
+        input.close();
+    }
+}     yang aman disini implementasi langsung terhadap penggunaan menyimpan data dalam array??
+
+
+13. baik, saya paham. Nah setelah menyimpan array tersebut berarti menghitung index nya dan gunakan modulo??? gabisa bersamaan itu?
+
+14.baik, berarti ini solusi program nya berdasarkan soal dengan benar kan? : import java.util.Scanner;
+
+public class Driver2 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah data (N): ");
+        int N = input.nextInt();
+
+        int[] nilai = new int[N];
+
+        System.out.println("Masukkan deret nilai:");
+        for (int i = 0; i < N; i++) {
+            nilai[i] = input.nextInt();
+        }
+
+        System.out.print("Masukkan jumlah kelompok: ");
+        int jumlahKelompok = input.nextInt();
+
+        System.out.print("Masukkan kode kelompok yang ingin dijumlahkan: ");
+        int kodeKelompok = input.nextInt();
+
+        int total = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (i % jumlahKelompok == kodeKelompok - 1) {
+                total += nilai[i];
+            }
+        }
+
+        System.out.println("Total nilai kelompok " + kodeKelompok + " adalah: " + total);
+
+        input.close();
+    }
+}
+
+15. baik, compile nya dengan benar ya.
