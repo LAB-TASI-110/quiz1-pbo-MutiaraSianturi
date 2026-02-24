@@ -1,0 +1,23 @@
+Nama : Mutiara Y.H. Sianturi
+NIM  : 12S24045
+
+PROMPT DARI GPT :
+1. baik, untuk study case praktikum pemograman berorientasi Objek kami selanjutnya yakni : Buatlah sebuah sistem yang dapat mendukung operasional sehari-hari di Laundry Del. nah jadi ide dari saya yaitu, saya ingin membuat suatu sistem Laundry IT del itu secara efisien,efektif,praktis dan tentu bermabfaat bagi mahasiswa IT.Del yang dimana sistemnya itu membuat List list dengan gampang pada sistemnya gausa manual lagi untuk ditulis pada kertas note laundry Del. Nah itu kan mempermudah mahasiswa kan ya, serta mebgurangi kesalaham/error atau tidak kebaca list daftar pakaian kotor oleh amhasiswa dengan pihak l;aundry Del. Dan meminimalisir juga penggunaan kertas dan ketidak jelasan pakaian! nah bantu aku untuk membuatbsolusi program nya dengan baik dan jelas serta mudah dipahami ya! serta berikan objek,class,maupun atribut yang digunakan apa saja! 
+
+2. dari yang anda berikan main controller itu seperti apa? kenapa bisa ada class nya seperti itu? untuk apa digunakan?
+
+3. baikk, nah informasi tambahan yang perlu anda ketahui kan pasti banyak itu mahasiswa sperti kami yang repot dan ribet kan dalam menulis manual dikertas kemudian dimasukkan ke laundry bag bersama pakaian yang akan di laundry? nah ketika kita masuk website nya gitu biar gampang dan langsung ada nanti notofikasi realtime nya bahwasanya apakah pakaian tersebut udah di proses,diambil maupun diantar! agar mahasiswa tidak kebingungan dan bis amelihat secara fleksibel kapan saja.
+
+4.nah coba berikan solusi program java berdasarkan ide yang saya berikan! serta berikan  penjelasan misaklnya kenapa ada tadi object atau class yang mengandung main controller seperti itu! agar saya dpaat mengetahui implementasinya dalam program java yang digunakan
+
+5.nah masing masing class tersebut gabisa digabung dalam satu program? cuman dibuat gitu comment nya biar jelas dan kita tau mana class yang digunakan, seperti itu! coba berikan 
+
+6. nah aku pakai public class driver 3 disini bverdasarkan intruksi kami! tolong ganti
+
+7. nah untuk inputan dan output yang diberikan berasarkan case yang saya berikan tentang laundry Del ini bebas kan? trs apa saja komponennnya ada ga aturan yang harus diperhatiin gitu?
+
+8. berarti ada 3 in putan kah yang kucoba mauskin nanti ke terminal? terus tolong berikan contoh inputan dan outputnya ya! biar langsung aku run diaa okaay
+
+9.baiklah! akhirnya sesuai inputannya dan output yang diharapkan! jadi saya paham disini sangat penting untuk mengetahui konsep oop
+
+10. compile nya
